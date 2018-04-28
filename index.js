@@ -4,8 +4,8 @@ var recipes = {
   fruit: "1 clementine"
 };
 
-function updateObjectWithKeyAndValue(recipes, honey, drizzle) {
-  Object.assign({}, {honey: "drizzle"});
+function updateObjectWithKeyAndValue(recipes, key, value) {
+  Object.assign({}, {honey: drizzle});
   return recipes;
 }
 
