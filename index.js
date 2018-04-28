@@ -1,7 +1,5 @@
 var recipes = {
-  yogurt: "2 scoops",
-  granola: "1/4 cup",
-  fruit: "1 clementine"
+  prop: 1
 };
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
@@ -20,7 +18,7 @@ function deleteFromObjectByKey(recipes, value) {
   return newRecipes;
 }
 
-function destructivelyDeleteFromObjectByKey(recipes, honey) {
-  delete recipes.honey;
+function destructivelyDeleteFromObjectByKey(recipes, value) {
+  delete recipes.value;
   return recipes;
 }
