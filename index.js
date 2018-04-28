@@ -1,5 +1,6 @@
 var recipes = {
-  prop: 1
+  prop: 1,
+  prop2: 2
 };
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
@@ -17,5 +18,5 @@ function deleteFromObjectByKey(recipes, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(recipes, key) {
-  delete recipes.value;
+  return delete recipes.value;
 }
